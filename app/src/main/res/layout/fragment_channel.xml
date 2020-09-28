@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:flexWrap="wrap"
+        >
+
+        <!--   第一行  -->
+        <LinearLayout
+            android:id="@+id/ll_zhengyi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_zhengyi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正义"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fanju"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_fanju"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="番剧"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_donghua"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_donghua"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="动画"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_yinyue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_yinyue"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="音乐"/>
+
+
+        </LinearLayout>
+
+        <!--   第二行  -->
+        <LinearLayout
+            android:id="@+id/ll_wudao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_wudao"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="舞蹈"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_youxi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_youxi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="游戏"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_yule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_yule"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="娱乐"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_keji"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_keji"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="科技"/>
+
+        </LinearLayout>
+
+        <!--   第三行  -->
+        <LinearLayout
+            android:id="@+id/ll_yingshi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_yingshi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="影视"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tiyu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_tiyu"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="体育"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_yutang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_yutang"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鱼塘"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_shenghuo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_shenghuo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="生活"/>
+
+        </LinearLayout>
+
+        <!--   第四行  -->
+        <LinearLayout
+            android:id="@+id/ll_guichu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_guichu"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鬼畜"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_xuniouxiang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_flexBasisPercent="25%"
+            android:gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ac_xuniouxiang"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="虚拟偶像"/>
+
+        </LinearLayout>
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

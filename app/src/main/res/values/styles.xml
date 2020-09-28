@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">0dp</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!--这条属性三星s9不太兼容 系统问题-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="FollowTextView">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:background">@drawable/shape_follow_radius_black_2dp_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/plus_follow</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>ss
+
+</resources>

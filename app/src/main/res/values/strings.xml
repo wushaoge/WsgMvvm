@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WsgMvvm</string>
+
+
+    <!--  eye   -->
+    <string name="split_line_two">/</string>
+    <string name="photo_count">%1$d/%2$d</string>
+    <string name="plus_follow">+关注</string>
+    <string name="private_letter">私信</string>
+    <string name="favorites">收藏</string>
+
+</resources>

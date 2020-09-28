@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ElseNetException">未知错误</string>
+    <string name="SocketTimeoutException">网络超时</string>
+    <string name="TimeoutException">网络超时</string>
+    <string name="SocketException">网络错误</string>
+    <string name="ConnectException">网络错误</string>
+    <string name="UnknownHostException">无网络连接</string>
+    <string name="JsonSyntaxException">数据错误,json错误</string>
+
+</resources>

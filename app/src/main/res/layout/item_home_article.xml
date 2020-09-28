@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_top_movie"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginStart="6dp"
+    android:layout_marginTop="6dp"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:id="@+id/ll_item_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            tools:text="标题"
+            android:textSize="16sp"
+            android:textColor="@color/font_gray_deep"
+            />
+
+        <TextView
+            android:id="@+id/tv_create_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:text="2018年12月28日09:38:15"
+            android:textColor="@color/font_gray"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

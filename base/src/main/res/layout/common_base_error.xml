@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_error"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:background="@color/defaultbg">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_error"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--app:srcCompat="@drawable/ic_base_error"-->
+        <!--/>-->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_error_view"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:text="您的手机网络不太顺畅~"
+        android:textColor="@color/font_black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_error_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:text="请检查您的手机是否联网"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/base_solid_stroke_corner"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:text="重新加载"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

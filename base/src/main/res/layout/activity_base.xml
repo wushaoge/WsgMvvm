@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/common_head_layout"/>
+
+    <LinearLayout
+        android:id="@+id/base_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/base_head"
+        android:background="@color/defaultbg"
+        android:orientation="vertical"
+        >
+
+    </LinearLayout>
+
+    <ViewStub
+        android:id="@+id/vs_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/base_head"
+        android:layout="@layout/common_base_loading"
+        />
+
+    <ViewStub
+        android:id="@+id/vs_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/base_head"
+        android:layout="@layout/common_base_error"
+        />
+
+
+</RelativeLayout>

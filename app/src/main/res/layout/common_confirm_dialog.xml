@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@drawable/confirm_dialog_box"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="标题"
+                android:textColor="@color/font_gray_deep"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="您确定这么做嘛?"
+                android:textColor="@color/font_gray_dark"
+                android:lineSpacingExtra="3dp"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="#D1D1D1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn_single"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/confirm_dialog_single_btn"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/font_blue"
+                android:textSize="14sp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/confirm_dialog_cancel_btn"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/font_blue"
+                android:textSize="14sp"/>
+
+            <View
+                android:id="@+id/v_single_line"
+                android:layout_width="0.2dp"
+                android:layout_height="match_parent"
+                android:background="#D1D1D1"
+                android:orientation="horizontal"/>
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/confirm_dialog_ok_btn"
+                android:text="确定"
+                android:textColor="@color/font_blue"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

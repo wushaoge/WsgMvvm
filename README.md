@@ -5,7 +5,7 @@ MVVM大家都了解差不多了，但是我发现MVVM整成架构时，每个人
 除了MVVM必要的ViewModel、LiveData,其它写法也没有统一的标准，看下来写法特别多，jetpack、kotlin、java、databinding、rxjava、协程、操作符等等各种混用,甚至还有把mvp的presenter当vm使用的，有的项目混用的多了看起来真的很不直观，没法用到实际项目中。
 
 ## 纯kotlin+ViewModel+LiveData+协程
-那就自己写一个简单的纯净版mvvm，不用jetpack、databinding、rxjava、晦涩的操作符等。同时也练习一下kotlin各种高阶函数、扩展、新特性等。
+那就自己写一个简单的纯净版mvvm，不用jetpack、databinding、rxjava、晦涩的操作符等。同时也练习一下kotlin各种高阶函数、扩展、新特性等。git地址[https://github.com/wushaoge/WsgMvvm](https://github.com/wushaoge/WsgMvvm)
 
 ## 屏幕截图
 <img src="http://ww1.sinaimg.cn/large/9dc979c7gy1gj6dryd7q2j20me19uaek.jpg" width="45%"/>  <img src="http://ww1.sinaimg.cn/large/9dc979c7gy1gj6dubfhlmj20lu19cwlp.jpg" width="45%"/>

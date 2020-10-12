@@ -31,10 +31,7 @@ android {
     }
     signingConfigs {
         config {
-            keyAlias 'wsg'
-            keyPassword 'woshizhu'
-            storeFile file('/Users/wushaoge/Documents/keystore')
-            storePassword 'woshizhu'
+
         }
     }
 

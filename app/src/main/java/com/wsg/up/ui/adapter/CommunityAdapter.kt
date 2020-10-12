@@ -13,21 +13,17 @@ import androidx.constraintlayout.utils.widget.ImageFilterView
 import androidx.core.content.ContextCompat
 import coil.api.load
 import coil.transform.RoundedCornersTransformation
-import com.blankj.utilcode.util.LogUtils
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
-import com.wsg.base.common.toJsonString
 import com.wsg.base.ext.dp2px
 import com.wsg.up.R
-import com.wsg.up.entity.Datas
 import com.wsg.up.entity.RecommendItem
 import com.wsg.up.ext.gone
 import com.wsg.up.ext.invisible
 import com.wsg.up.ext.setDrawable
 import com.wsg.up.ext.visible
-import com.wsg.up.ui.activity.TestActivity
 import com.wsg.up.ui.activity.ugc.UgcDetailActivity
-import java.util.ArrayList
+import java.util.*
 
 /**
  * ================================================

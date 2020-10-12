@@ -1,6 +1,5 @@
 package com.wsg.up.entity
 
-import android.os.Parcel
 import android.os.Parcelable
 import androidx.annotation.Keep
 import com.wsg.base.common.toJsonString

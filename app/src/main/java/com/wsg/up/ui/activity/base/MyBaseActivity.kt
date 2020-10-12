@@ -7,10 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.TextView
 import androidx.core.view.LayoutInflaterCompat
-import com.blankj.utilcode.util.LogUtils
 import com.wsg.base.activity.BaseActivity
 import com.wsg.base.ui.dialog.MyProgressDialog
-import com.wsg.up.R
 import com.wsg.up.utils.TypeFaceUtil
 
 /**

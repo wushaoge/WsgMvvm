@@ -3,7 +3,6 @@ package com.wsg.up.ui.adapter
 import android.view.View
 import com.wsg.up.R
 import com.wsg.up.entity.BannerChildData
-import com.wsg.up.entity.BannerData
 import com.zhpan.bannerview.BaseBannerAdapter
 import com.zhpan.bannerview.BaseViewHolder
 

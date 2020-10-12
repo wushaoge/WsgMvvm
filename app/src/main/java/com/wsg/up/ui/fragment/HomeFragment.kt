@@ -1,7 +1,6 @@
 package com.wsg.up.ui.fragment
 import android.os.Bundle
 import android.view.View
-import androidx.lifecycle.ViewModelProvider
 import com.blankj.utilcode.util.ColorUtils.getColor
 import com.blankj.utilcode.util.LogUtils
 import com.scwang.smartrefresh.layout.api.RefreshLayout

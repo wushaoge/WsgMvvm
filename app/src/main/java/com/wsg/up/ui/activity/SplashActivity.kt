@@ -3,7 +3,6 @@ package com.wsg.up.ui.activity
 import android.Manifest
 import android.view.View
 import android.view.WindowManager
-import com.blankj.utilcode.util.ToastUtils
 import com.permissionx.guolindev.PermissionX
 import com.wsg.base.ext.setViewsOnClickListener
 import com.wsg.base.ext.showToast

@@ -2,23 +2,17 @@ package com.wsg.up
 
 import android.view.KeyEvent
 import android.view.View
-import androidx.lifecycle.lifecycleScope
-import androidx.lifecycle.rxLifeScope
 import androidx.viewpager.widget.ViewPager
-import com.blankj.utilcode.util.LogUtils
 import com.blankj.utilcode.util.ToastUtils
 import com.wsg.up.application.MyApplication
 import com.wsg.up.entity.BottomResourceData
 import com.wsg.up.ui.activity.base.MyBaseActivity
 import com.wsg.up.ui.adapter.HomePagerAdapter
-import com.wsg.up.ui.fragment.ChannelFragment
 import com.wsg.up.ui.fragment.FindFragment
 import com.wsg.up.ui.fragment.HomeFragment
 import com.wsg.up.ui.fragment.base.MyBaseFragment
 import com.wsg.up.utils.TablayoutUtils
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.coroutines.MainScope
-import kotlinx.coroutines.launch
 
 class MainActivity : MyBaseActivity() {
 
@@ -35,7 +29,7 @@ class MainActivity : MyBaseActivity() {
     }
 
     override fun initViewModel() {
-
+        
     }
 
     override fun initView() {

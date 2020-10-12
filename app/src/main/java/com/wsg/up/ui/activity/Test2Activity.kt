@@ -6,7 +6,8 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.rxLifeScope
 import com.blankj.utilcode.util.LogUtils
 import com.wsg.base.common.toJsonString
-import com.wsg.base.ext.*
+import com.wsg.base.ext.setViewsOnClickListener
+import com.wsg.base.ext.vmObserverLoading
 import com.wsg.base.state.VmResult
 import com.wsg.up.R
 import com.wsg.up.entity.ArticleData

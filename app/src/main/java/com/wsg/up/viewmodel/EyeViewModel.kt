@@ -4,11 +4,8 @@ import androidx.lifecycle.MutableLiveData
 import com.wsg.base.ext.VmLiveData
 import com.wsg.base.ext.launchVmRequest
 import com.wsg.base.model.BaseViewModel
-import com.wsg.up.entity.ArticleData
-import com.wsg.up.entity.BannerData
 import com.wsg.up.entity.RecommendData
 import com.wsg.up.repository.EyeRepository
-import com.wsg.up.repository.WanAndroidRepository
 
 /**
  * ================================================

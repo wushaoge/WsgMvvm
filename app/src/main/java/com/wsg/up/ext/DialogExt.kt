@@ -1,7 +1,6 @@
 package com.wsg.up.ext
 
 import android.content.Context
-import android.view.View
 import com.wsg.base.ui.dialog.MyProgressDialog
 import com.wsg.up.ui.view.dialog.MyConfirmDialog
 

@@ -3,9 +3,8 @@ package com.wsg.up.entity
 import android.annotation.SuppressLint
 import android.os.Parcelable
 import androidx.annotation.Keep
-import kotlinx.android.parcel.Parcelize
 import com.google.gson.annotations.SerializedName
-
+import kotlinx.android.parcel.Parcelize
 
 
 /**

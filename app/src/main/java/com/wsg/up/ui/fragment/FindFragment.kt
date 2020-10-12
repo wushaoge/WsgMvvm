@@ -2,12 +2,9 @@ package com.wsg.up.ui.fragment
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.blankj.utilcode.util.LogUtils
-import com.blankj.utilcode.util.SPUtils
 import com.scwang.smartrefresh.layout.api.RefreshLayout
 import com.scwang.smartrefresh.layout.listener.OnLoadMoreListener
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener
-import com.wsg.base.entity.BaseData
 import com.wsg.base.ext.getViewModel
 import com.wsg.base.ext.showToast
 import com.wsg.base.ext.vmObserverDefault
@@ -17,7 +14,6 @@ import com.wsg.up.ui.adapter.CommunityAdapter
 import com.wsg.up.ui.fragment.base.MyBaseFragment
 import com.wsg.up.utils.Tools
 import com.wsg.up.viewmodel.EyeViewModel
-import kotlinx.android.synthetic.main.fragment_find.rv_content
 import kotlinx.android.synthetic.main.fragment_find.*
 
 

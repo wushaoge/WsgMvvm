@@ -1,8 +1,6 @@
 package com.wsg.up.repository
 
 import com.wsg.base.entity.BaseData
-import com.wsg.up.entity.ArticleData
-import com.wsg.up.entity.BannerData
 import com.wsg.up.entity.RecommendData
 import com.wsg.up.utils.Constants
 import rxhttp.RxHttp

@@ -1,18 +1,9 @@
 package com.wsg.up.ui.fragment.base
 
-import android.content.Context
-import android.os.Bundle
-import android.util.AttributeSet
-import android.view.LayoutInflater
-import android.view.View
-import android.widget.TextView
-import androidx.core.view.LayoutInflaterCompat
-import com.blankj.utilcode.util.LogUtils
 import com.scwang.smartrefresh.layout.SmartRefreshLayout
 import com.scwang.smartrefresh.layout.constant.RefreshState
 import com.wsg.base.fragment.BaseFragment
 import com.wsg.base.ui.dialog.MyProgressDialog
-import com.wsg.up.utils.TypeFaceUtil
 
 /**
  * ================================================
